@@ -1,0 +1,10 @@
+
+body{
+    background-color:rgb(20, 20, 22);
+    color:white;
+    font:normal 20pt Arial;
+    text-align: center;
+}
+h1#prt{
+    margin-bottom:150px;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale conosco</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+    <link rel="stylesheet" href="_css/form.css">
+</head>
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+            <h1>Google Glass</h1>
+            <h2>A revolução do Google está chegando</h2>
+            </hgroup>
+
+            <img id="imgh" src="_imagens/contato.png">
+            <nav id="menu">
+                <h1>Menu principal</h1>
+                <ul type="circle">
+                    <li><a href="index.html" onmousemove="mudafoto('home')" onmouseout="mudafoto('contato')">Home</a></li>
+                    <li><a href="specs.html" onmousemove="mudafoto('especificacoes')" onmouseout="mudafoto('contato')">Especificações</a></li>
+                    <li><a href="fotos.html" onmousemove="mudafoto('fotos')" onmouseout="mudafoto('contato')">Fotos</a></li>
+                    <li><a href="multimidia.html" onmousemove="mudafoto('multimidia')"  onmouseout="mudafoto('contato')">Multimídia</a></li>
+                    <li><a href="fale-conosco.html" onmousemove="mudafoto('contato')">Fale conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="corpofull">
+            <article id="noticia">
+                <header id="cabecalho-artigo">
+                    <hgroup>
+                        <h3>Fale Conosco > Contato</h3>
+                        <h1>Formulário de Contato</h1>
+                        <h2>por Gustavo Guanabara</h2>
+                        <h3 class="dr">Atualizado em 01/Maio/2013</h3>
+                    </hgroup>
+                </header>    
+                <form method="post" id="fcontato" action="mailto:draki.araujo@gmail.com" oninput="calc_total()">   
+                    <fieldset id="usuario">
+                        <legend>Identificação do Usuário</legend>
+                            <p><label for="txtnome">Nome:</label> <input type="text" name="nome" id="txtnome" maxlength="40" placeholder="Nome de Usuário"></p>
+                            <p><label for="psenha">Senha:</label> <input type="password" name="senha" id="psenha" size="18"placeholder="max. 30 dígitos"></p>
+                            <p><label for="eemail">E-mail:</label> <input type="email" name="email" id="eemail" size="20"></p>
+                            <fieldset id="sexo"><legend>Sexo</legend>
+                                <input type="radio" name="radsex" id="masc" checked>
+                                <label for="masc">Masculino</label><br>
+                                <input type="radio" name="radsex" id="femi">
+                                <label for="femi">Feminino</label>
+                            </fieldset>
+                            <p><label for="datai">Data de nascimento:</label> <input type="date" name="datanascimento" id="datai"></p>
+                    </fieldset>
+                    <fieldset id="endereco">
+                        <legend>Endereço do Usuário</legend>
+                            <p>
+                                <label for="txtrua">Logradouro:</label> <input type="text" name="rua" id="txtrua" placeholder="Rua, Av, Trav, ..." size="10">
+                                <label for="nnum">Número:</label> <input type="number" name="numero" id="nnum" size="0" min="0">
+                            </p>
+                            <p><label for="sestado">Estado:</label> <select name="estado" id="sestado">
+                                <optgroup label="Região Sudeste">
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="SP" selected>São Paulo</option>
+                                    <option value="MG">Minas Gerais</option>
+                                </optgroup>
+                                <optgroup label="Região Sul">
+                                    <option value="PR">Paraná</option>
+                                    <option value="SC">Santa catarina</option>
+                                    <option value="RS">Rio Grande do Sul</option>
+                                </optgroup>
+                            </select></p>
+                            <p><label for="tcidade">Cidade:</label><input type="text" name="cidade" id="tcidade" placeholder="Sua cidade" list="cidades"></p>
+                            <datalist id="cidades">
+                                <option value="Rio de Janeiro"></option>
+                                <option value="Nova Iguaçu"></option>
+                                <option value="Niterói"></option>
+                                <option value="Belford Roxo"></option>
+                            </datalist>
+                    </fieldset>
+                    
+                    <fieldset id="mensagem">
+                        <legend>Mensagem do Usuário</legend>
+                            <p><label for="rgrau">Grau de urgência:</label><input type="range" name="grau" id="rgrau" min="0" max="10"></p>
+                            <p><label for="tmsg">Mensagem:</label><textarea name="mensagem" id="tmsg" cols="60" rows="5" placeholder="Deixe aqui sua mensagem"></textarea></p>
+                    </fieldset>
+                    <fieldset id="quero">
+                        <legend>Quero um Google Glass</legend>
+                            <p><input type="checkbox" name="gostaria" id="cgostaria"><label for="cgostaria">Gostaria de adquirir um Google Glass quando disponível</label></p>
+                            <p><label for="ccor">Cor:</label><input type="color" name="cor" id="ccor"></p>
+                            <p><label for="nquanti">Quantidade:</label><input type="number" name="quantidade" id="nquanti" min="0"></p>
+                            <p><label for="tpreco">Preço Total: R$</label><input type="text" name="preco" id="tpreco" placeholder="Total a pagar" readonly></p>
+                    </fieldset>     
+                    <input type="image" src="_imagens/botao-enviar.png" alt="enviar" onclick="enviar()">
+                </form> 
+            </article>
+        </section>
+        <footer id="rp">
+            <p>
+            Copyright &copy; 2013 - by Gustavo Guanabara<br>
+            <a href="http://facebook.com/cursosemvideo">Facebook</a> | 
+            <a href="http://twitter.com/cursosemvideo">Twitter</a>
+            </p>
+        </footer> 
+        <script>
+            function calc_total(){
+                let qtd = document.getElementById('nquanti')
+                let res = 1500 * Number(qtd.value)
+                document.getElementById('tpreco').value = res
+                    
+            }
+        </script>
+        <script src="_javascript/funcoes.js"></script>
+    </div>   
+</body>
+</html>

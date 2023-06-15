@@ -1,0 +1,215 @@
+@font-face {
+    font-family:'Fontelogo';
+    src: url(../_fonts/bubblegum-sans-regular.otf);
+}
+body{
+    /*background-image: url("_imagens/4907157.jpg");*/
+    background-color:#dddddd;
+    font-family: Arial, sans-serif;
+}
+div#interface{
+    background-color:#ffffff;
+    width:1000px;
+    margin: -20px /*Cima*/ auto/*direita*/ 0px/*baixo*/ auto/*esquerda*/;
+    box-shadow:0px 0px 10px rgb(206, 205, 205);
+    padding:10px;
+}
+img#imgh{
+    position:absolute;
+    left:1100px;
+    top:70px;
+}
+header#cabecalho{
+    border-bottom:1px #606060 solid;
+    height: 150px;
+    background: url("_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+}
+header#cabecalho h1{
+    font-family: 'Fontelogo', sans-serif;
+    font-size: 30pt;
+    color:#606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.603);
+    padding: 0px;
+    margin-bottom:0px;
+}
+header#cabecalho h2{
+    font-family: Arial, sans-serif;
+    font-size:15pt;
+    color:#888888;
+    padding:0px;
+    margin-top:0px;
+}
+p {
+    text-align:justify;
+    text-indent: 50px;
+}
+a{
+    color:#606060;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:underline;
+}
+/*Formatação de imagens com legenda*/
+figure.foto-legenda{
+    position:relative;
+    border: 8px solid white;
+    box-shadow:1px 1px 4px rgb(68, 68, 68);
+}
+figure.foto-legenda img{
+    width:100%;
+    height:100%;
+}
+figure.foto-legenda figcaption{
+    transition: opacity 1s;
+    opacity:0;
+    position:absolute;
+    top:0px;
+    background:rgba(0, 0, 0, 0.144);
+    color:white;
+    width:100%;
+    height:100%;
+    padding:10px;
+    box-sizing:border-box;
+}
+figure.foto-legenda:hover figcaption{
+    opacity:1;
+}
+nav#menu {
+    display:block;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position:absolute;
+    top:-20px;
+    left:600px;
+
+}
+nav#menu li{
+    display:inline-block;
+    background:rgba(0, 0, 0, 0.178);
+    padding:10px;
+    margin:2px;
+    transition:background-color 1s; /* configura a demora da mudança de cor */
+}
+nav#menu li:hover {
+    background:rgb(128, 128, 128);
+}
+nav#menu h1{
+    display:none;
+}
+nav#menu a{
+    color:black;
+    text-decoration:none; /*tira o sublinhado*/
+}
+nav#menu a:hover{
+    color:white;
+}
+hgroup h1{
+    font:normal 20pt 'Fontelogo';
+}
+section#corpo {
+    display:block;
+    width:550px;
+    float: left;
+    border-right:1px solid #606060;
+    padding-right:20px;
+}
+aside#lateral{
+    display:block;
+    width:410px;
+    float:right;
+    background-color:#dddddd;
+    padding:5px;
+    margin-top:7px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+aside#lateral h1{
+    font-family:'Fontelogo', sans-serif;
+    font-size:20pt;
+    color:#606060;
+    margin-top:0px;
+}
+aside#lateral h2{
+    background-color:#606060;
+    font-size:13pt;
+    color:white;
+    padding:10px;
+}
+footer#rp {
+    clear:both;
+    border-top:1px solid #606060;
+}
+footer#rp p{
+    text-align: center;
+}
+table#tabela{
+    border: 1px solid #606060;
+    border-spacing:0px;
+    margin-left:auto;
+    margin-right:auto;
+}
+table#tabela td{
+    border:1px solid #606060;
+    padding:10px;
+}
+table#tabela td.ce{
+    text-align:right;
+    color:white;
+    background-color:#606060;
+    vertical-align:top;
+    font-weight:bold;
+}
+table#tabela td.cd{
+    background-color:#cecece;
+}
+table#tabela caption{
+    color:#3b3b3b;
+    font-size:15pt;
+    font-weight:bolder
+}
+table#tabela caption span{
+    display:block;
+    float:right;
+    color:black;
+    font-size:8pt;
+    margin-top:10px;
+}
+article#noticia h2{
+    font-size:12pt;
+    color: #606060;
+    background-color:#dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+header#cabecalho-artigo h1{
+    font-family: 'Fontelogo', sans-serif;
+    font-size: 20pt;
+    color:#606060;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+header#cabecalho-artigo h2{
+    font-size:13pt;
+    color:#cecece;
+    background:none;
+}
+header#cabecalho-artigo h3{
+    font-size:12pt;
+    color:#606060;
+
+}
+.dr{
+    text-align:right;
+}
+section#corpofull{
+    display:block;
+}
+/* videos */
+video#video01 {
+    width:560px;    
+}
+video#video02 {
+    width:400px;
+}

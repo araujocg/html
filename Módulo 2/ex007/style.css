@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body{
+    background-color:#000E1F;
+    font:normal 16px Arial;
+}
+h1{
+    color:#0053B8;
+}
+h1#principal{
+    text-align:center;
+    background-color:#00306B;
+    color:white;
+    border-radius:20px;
+}
+h2{
+    color:#0A1F38;
+}
+article{
+    background-color:white;
+    border-radius:10px;
+    /*rgb(199, 199, 199)*/
+}

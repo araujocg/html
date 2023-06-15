@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimidia</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+    <link rel="stylesheet" href="_css/media.css">
+</head>
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+            <h1>Google Glass</h1>
+            <h2>A revolução do Google está chegando</h2>
+            </hgroup>
+
+            <img id="imgh" src="_imagens/multimidia.png">
+            <nav id="menu">
+                <h1>Menu principal</h1>
+                <ul type="circle">
+                    <li><a href="index.html" onmousemove="mudafoto('home')" onmouseout="mudafoto('multimidia')">Home</a></li>
+                    <li><a href="specs.html" onmousemove="mudafoto('especificacoes')" onmouseout="mudafoto('multimidia')">Especificações</a></li>
+                    <li><a href="fotos.html" onmousemove="mudafoto('fotos')" onmouseout="mudafoto('multimidia')">Fotos</a></li>
+                    <li><a href="multimidia.html" onmousemove="mudafoto('multimidia')">Multimídia</a></li>
+                    <li><a href="fale-conosco.html" onmousemove="mudafoto('contato')" onmouseout="mudafoto('multimidia')">Fale conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="corpofull">
+            <article id="noticia">
+                <header id="cabecalho-artigo">
+                    <hgruop>
+                        <h3>Glass > Multimídia</h3>
+                        <h1>Sons e Vídeos</h1>
+                        <h2>por Gustavo Guanabara</h2>
+                        <h3 class="dr">Atualizado em 01/Maio/2013</h3>
+                    </hgruop>
+                </header>
+                <div id="tv-radio">
+                    <audio id="musica" controls="controls">
+                        <source src="_media/X2Download.app - yung lixo - tomodachi ft. SHO-SENSEI!! [prod biffe] (official video) (128 kbps).mp3" type="audio/mpeg"/>
+                    </audio>
+                    <!--<audio id="musica" controls="controls">
+                        <source src="_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg"/>
+                    </audio>
+                    
+                        <video id="film" controls="controls" poster="_imagens/video-mini03.jpg">
+                        <source src="_media/getting-started.mp4" type="video/mp4"/>
+                        </video>
+                    -->
+                </div>
+                <iframe id="film" width="560" height="315" src="https://www.youtube.com/embed/krU-M8WusuY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </article>
+        </section>
+        <footer id="rp">
+            <p>
+            Copyright &copy; 2013 - by Gustavo Guanabara<br>
+            <a href="http://facebook.com/cursosemvideo">Facebook</a> | 
+            <a href="http://twitter.com/cursosemvideo">Twitter</a>
+            </p>
+        </footer> 
+        <script src="_javascript/funcoes.js"></script>
+    </div>   
+</body>
+</html>
