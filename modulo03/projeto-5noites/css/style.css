@@ -11,6 +11,9 @@
     padding:0px;
     margin:0px;
 }
+body{
+    background:rgb(255, 255, 255) url(../imagens/wp7406095-fnaf-computer-wallpapers-pq.jpg) center center no-repeat fixed;
+}
 header{
     background-color:black;
     color:white;
