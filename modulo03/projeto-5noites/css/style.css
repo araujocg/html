@@ -14,6 +14,13 @@
 body{
     background:rgb(255, 255, 255) url(../imagens/Wallpaper\ Tumblr.jpg) center center repeat fixed;
 }
+div#botao-musica{
+    margin:5px;
+    padding:5px;
+    position: absolute;
+    top: 100px; 
+    right: 80%;
+}
 header{
     background-color:black;
     color:white;
