@@ -52,6 +52,17 @@ section.paragrafo p{
     line-height:2em;
     font-family:'nights',Arial, Helvetica, sans-serif;
 }
+section.paragrafo-parallax {
+    margin-left:-20px;
+    margin-right: -20px;
+    background-color:black;
+    background-image: url(../imagens/unknown.png);
+    background-repeat: no-repeat;
+    color:white;
+}
+.paragrafo-parallax p{
+    background-color:rgba(0, 0, 0, 0.295);
+}
 footer{
     background-color:black;
     color:white;
