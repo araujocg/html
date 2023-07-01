@@ -32,7 +32,7 @@ main{
     margin: auto;
     margin-bottom:15px;
     padding:20px;
-    max-width:1000px;
+    max-width:1100px;
     min-width:260px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
     border-radius:0px 0px 10px 10px;
@@ -53,15 +53,37 @@ section.paragrafo p{
     font-family:'nights',Arial, Helvetica, sans-serif;
 }
 section.paragrafo-parallax {
-    margin-left:-20px;
-    margin-right: -20px;
-    background-color:black;
-    background-image: url(../imagens/unknown.png);
-    background-repeat: no-repeat;
+    margin: 40px -20px;
+    padding:50px 40px;
     color:white;
 }
+section#cat1 {
+    background: black url(../imagens/cat1.jpg) center center no-repeat fixed;
+    background-size:1150px;
+}
+section#cat2 {
+    background: black url(../imagens/cat2.jpg) top center no-repeat fixed;
+    background-size:1150px 900px;
+}
+section#cat3 {
+    background: black url(../imagens/cat3.jpg) center center no-repeat fixed;
+    background-size:1150px;
+}
+section#cat4 {
+    background: black url(../imagens/cat4.jpg) center center no-repeat fixed;
+    background-size:1150px;
+}
+section#cat5 {
+    background: black url(../imagens/cat5.jpg) center center no-repeat fixed;
+    background-size:1150px 800px;
+}
+section#cat6 {
+    background: black url(../imagens/cat6.jpg)  top center no-repeat fixed;
+    background-size:1150px 900px;
+}
 .paragrafo-parallax p{
-    background-color:rgba(0, 0, 0, 0.295);
+    background-color:rgba(0, 0, 0, 0.514);
+    padding:5px;
 }
 footer{
     background-color:black;
