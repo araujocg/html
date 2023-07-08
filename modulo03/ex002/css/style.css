@@ -42,19 +42,21 @@ section.paragrafo p{
     line-height:2em;
     font-family:var(--fonte3);
     font-size:3.3vw;
+    padding-bottom:2em;
 }
 section.paragrafo-parallax {
     margin:0px -0px 20px -0px;
     padding:70px 40px;
     color:white;
+    box-shadow:inset 0px 2px 5px rgba(0, 0, 0, 0.459);
 }
 section#img1{
-    background: black url(../imagens/background001.jpg) center center no-repeat fixed;
-    background-size:100%;
+    background: black url(../imagens/background001.jpg) center right no-repeat fixed;
+    background-size:1800px;
 }
 section#img2{
     background: black url(../imagens/background002.jpg) center center no-repeat fixed;
-    background-size:100%;
+    background-size:1800px;
 }
 .paragrafo-parallax p{
     background-color:rgba(0, 0, 0, 0.514);
