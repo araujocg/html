@@ -12,11 +12,15 @@
 </head>
 <body>
     <h1>Meu primeiro Formulario</h1>
-    <form autocomplete="off" method="post"> <!--IMPORTANTE!!!-->
-        <p><label for="inome">Nome: </label>
-            <input type="text" name="nome" id="inome"></p>
-        <p><label for="isobrenome">Sobrenome: </label>
-            <input type="text" name="sobrenome" id="isobrenome"></p>
+    <form action="cadastro.py" autocomplete="off" method="post"> <!--IMPORTANTE!!!-->
+        <p>
+            <label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome">
+        </p>
+        <p>
+            <label for="isobrenome">Sobrenome: </label>
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
         <input type="submit" value="Enviar">
     </form>
 </body>
