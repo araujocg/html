@@ -1,5 +1,5 @@
 var muteIcon = document.getElementById('icon-som');
-var audio = document.getElementById('music')
+var audio = document.getElementById('music');
 var playIcon = document.getElementById('icon-play');
 audio.volume = 0.4;
 var num = 0;
