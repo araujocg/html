@@ -1,0 +1,144 @@
+query.selector
+quando é id (#)
+quando é class (.)
+
+<br/> // break row
+nbsp //Non-breaking Space
+<wbr/> //Word Breaker
+&shy // Soft Hyphen
+
+Símbolos
+&lt;
+&gt;
+&le;
+&ge;
+&pound;
+&yen;
+&euro;
+&copy;
+
+<del> // texto deletado
+<span style="text-decoration: underline;"> // sublinhado
+<span style="text-decoration: overline;"> // sublinhado invertido :)
+<span style="text-decoration: line-through;"> // <del> sem o resultado semântico
+<span style="text-decoration: none;"> // sem decoração alguma
+
+<span style="font-weight:normal;"> // formatação normal de texto
+<span style="font-weight:bold;"> // negrito
+<span style="font-weight:bolder;"> // mais negrito
+
+<sup> // sobrescrito
+<sub> // subscrito
+<code> // escrito como um codigo
+<pre> // pré-formatado
+
+color:rgba(0,0,0,0.5); // letra transparente
+
+o "tamanho" da imagem q vc for usar importa 
+
+<!--  --> // comentario em html
+
+<a href="" target="_black"> // link pra abrir em outra aba
+<a href=""> // link pra abrir na msm aba
+
+//Sempre q vc quiser centralizar alguma coisa trabalhe com as margens
+//margem é a area externa ao objeto
+
+//class serve pra quando vc quer dar o msm id pra varios blocos
+
+//no css 'hover' é o onmousemove
+
+//miro video pra converter arquivos
+
+Referencias on-line{
+Referência MDN
+W3C Standards
+WHATWG Living Standard
+W3Schools
+}
+ 
+MB == MEGABYTES
+Mb == MEGABITS
+
+<hr> // cria uma linha na horizontal
+unsplash // site pra pegar imagens 
+favicon.io // site pra favicons
+curso HTML5 CSS3 modulo 1 de 5 capitulo 6 aula 5 // tudo sobre favicons
+
+os titulos ("h1,h2,h3...") tem como limite h6
+
+Segurando alt e clicando em varias partes vc pode mexer em varias coisas ao msm tempo  		
+
+Para texto é recomendavel sempre usar letra preta e fundo branco
+
+Capítulo 13 Aula 03 – Harmonia de cores // video mt bom para entender mais sobre cores
+
+* {
+   height:100%;
+}
+configuração globais das css
+
+fontes sem a serifa ajudam na leituras em telas
+
+Medidas absolutas:
+cm, mm, in, (px), pt, pc
+
+Medidas relativas:
+(em), ex, rem, vw, vh, %
+
+Quando precisar usar precisar usar o msm id use o class!!!! usar o msm id é errado
+vc pode usar varias class em um msm h1 por exemplo. assim como tbm pode no h2,article,picture... em tudo!!!
+inclusive vc tbm pode colocar ela junto com um id!! só q o id sobrepõe tipo se tiver 2 background-color nos 2 ele vai pegar o do id
+
+div = espaço qualquer
+
+Shorthand // background : color > image > position > repeat > [size] > attachment
+
+HIERARGUIA DE TABELAS SIMPLES
+       Table = Tabela
+           table row = linha de tabela
+               tabel header = cabeçalho 
+                     table data = dado de tabela
+
+text-align:center(exemplo); <- Alinhamento horizontal
+vertical-align:top(exemplo); <- Alinhamento Vertical
+
+evite utilizar iframe para conteudos sensiveis(conteudo importante do seu site)
+programa q ajuda os cegos a ler um site tbm tem problemas com iframe
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+::-webkit-scrollbar{
+	height:0px;
+	width:0px;
+}
+Para esconder a (scrollbar)
+
+formulario{
+   existem 2 metódos para envio de formulario
+	GET [metodo padrão]{
+		usar quando os dados n forem sensiveis, e quando vc quiser q o link seja compartilhável;
+		Quando vc envia dados por GET vc só pode enviar até 3000 bytes(uma letra, um número, etc.);
+		Não usar para mandar arquivos;
+		
+        }
+        POST{
+		usar quando os dados forem sensiveis;
+		q n deixa "visivel" as informações na url(no link do site))Pra você proteger vc precisa criptografar os dados e-
+		pra isso vc precisa usar o https q é um outro protocolo de transmissão de dados;
+		se o seus dados tiverem mais de 3000bytes;
+		usar para mandar arquivos;
+        }
+}
+
+Estudar um pouco mais pra saber como funciona https, criptografia de dados mas isso é coisa mais avançada
+
+Verifique sempre na maioria dos navegadores 
+
+estudar mais sobre RegEx(expressões regulares)
+
+Quando vc utilizar o envio de arquivos vc n pode usar o método GET vc tem q usar o método POST 
+
+Ver/estudar mais media query
+
+Ctrl + ; = /**/
