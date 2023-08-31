@@ -5,9 +5,9 @@
 /* Typical divice Brakepoints
 Pequenas telas: até 600px
 celular: (600px - 768px)
-tablet: (768px - 992px)
-Desktop: (992px - 1200px)
-Grandes telas: acima de 1200px
+tablet: (768px - 1366px)
+Desktop: (1366x - 1920px)
+Grandes telas: acima de 1920px
 */
 
 @media print {
