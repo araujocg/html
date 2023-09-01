@@ -13,10 +13,6 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
-html{
-    height:100vh;
-}
-
 body{
     font-size:1em;
     background-color:var(--color001);
@@ -29,18 +25,45 @@ header{
 
 header h1{
     text-align:center;
-    margin-bottom:25px;
-    padding-top:25px;
+    padding:20px;
 }
 
-header a{
+i#burger{
+    background-color:rgb(63, 63, 63);
+    color:white;
+    display:block;
+    text-align:center;
+    padding:10px;
+    cursor:pointer;
+    transition:0.5s;
+}
+
+i#burger:hover{
+    background-color:white;
+    color:black;
+}
+
+menu{
+    display:none;
+}
+
+menu ul{
+    list-style-type: none;
+    display: block;
+}
+
+menu a{
+    display:block;
+    padding:10px;
+    border-top: 2px solid gray;
     background-color:var(--color004);
     color:white;
     text-decoration:none;
-    padding:10px;
+    text-align:center;
+    
 }
 
-header a:hover{
+menu a:hover{
     background-color:var(--color003);
     color:black;
     transition:0.5s;
