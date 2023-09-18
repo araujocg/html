@@ -14,6 +14,7 @@ body{
     background-color:rgb(255, 255, 255);
     background-image:url(imagens/paw-foot-trail-print-of-cat-dog-puppy-silhouette-animal-diagonal-tracks-for-t-shirts-backgrounds-patterns-websites-showcases-design-greeting-cards-child-prints-and-etc-vector.jpg);
     background-repeat:no-repeat;
+    background-size: cover;
 }
 
 #box{

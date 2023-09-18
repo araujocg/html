@@ -1,5 +1,5 @@
 let button_yes = document.getElementById('yes')
-let url_yes = "sim.hmtl"
+let url_yes = "sim.html"
 let button_no = document.getElementById('no')
 let url_no = "nao.html"
 let height = window.innerHeight - 50
