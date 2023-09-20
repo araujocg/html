@@ -142,3 +142,7 @@ Quando vc utilizar o envio de arquivos vc n pode usar o método GET vc tem q usa
 Ver/estudar mais media query
 
 Ctrl + ; = /**/
+
+calc() das css mt importante e mt util
+
+transition e transform sempre no FINAL
