@@ -54,7 +54,7 @@ body{
 
 
 
-@keyframes animationBg {
+@keyframes animateBg {
     0%{
         background-position:0;
     }
