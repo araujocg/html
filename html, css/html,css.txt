@@ -146,3 +146,5 @@ Ctrl + ; = /**/
 calc() das css mt importante e mt util
 
 transition e transform sempre no FINAL
+
+https://uigradients.com/#Relay // site q gera varias gradiants bonitos :)
